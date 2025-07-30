@@ -8,11 +8,11 @@ const Hero = () => {
     <div className="w-[100vw] md:h-fit relative md:px-12 pb-24 lg:pt-12">
       <div className="w-full  flex items-center justify-center z-10 uppercase md:gap-12 font-sans md:text-[180px] tracking-tight max-sm:flex-col md:leading-[1em] gap-4 pointer-events-none">
         {" "}
-        <Copy className="flex gap-8">
+        <Copy className="flex gap- max-sm:flex-col max-sm:items-center">
           <h1 className="max-sm:text-[104px] max-sm:leading-32 max-sm:-tracking-[0.05em]">
             Creative
           </h1>
-          <h1 className="max-sm:text-[124px] max-sm:leading-12 max-sm:-tracking-[0.05em]">
+          <h1 className="max-sm:text-[124px] max-sm:leading- max-sm:-tracking-[0.05em]">
             Brahmx
           </h1>
         </Copy>
