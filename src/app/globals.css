@@ -3,20 +3,26 @@
 :root {
   --background: #efead2;
   --foreground: #000000;
+  --textpri: #24231f;
+  --muted: #8e8974;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-textpri: var(--textpri);
+  --color-muted: var(--muted);
   --color-primary-bg: var(--primary_bg);
-  --font-sans: var(--font-anton-sans);
+  --font-sans: var(--font-inter-sans);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #efead2;
     --foreground: #000000;
+    --textpri: #24231f;
+    --muted: #8e8974;
   }
 }
 
@@ -51,9 +57,13 @@
   font-weight: 800;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: var(--textpri);
   font-family: "Supreme", sans-serif;
 }
 
