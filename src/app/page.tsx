@@ -17,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsIntroVisible(false);
-    }, 0); // Animation duration
+    }, 11000); // Animation duration
     return () => clearTimeout(timer);
   }, [isIntroVisible]);
 
